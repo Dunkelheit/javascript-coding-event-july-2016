@@ -1,0 +1,37 @@
+{
+    "square": {
+        "speed": {
+            "generic": 200,
+            "withZombies": 400
+        },
+        "visited": {
+            "rendering": "·"
+        },
+        "definition": [{
+            "type": "floor",
+            "walkable": true,
+            "rendering": " ",
+            "character": " "
+        }, {
+            "type": "wall",
+            "walkable": false,
+            "rendering": "█",
+            "character": "#"
+        }, {
+            "type": "start",
+            "walkable": true,
+            "rendering": "a",
+            "character": "a"
+        }, {
+            "type": "end",
+            "walkable": true,
+            "rendering": "z",
+            "character": "z"
+        }, {
+            "type": "walker",
+            "walkable": false,
+            "rendering": "w",
+            "character": "w"
+        }]
+    }
+}
